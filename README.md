@@ -25,10 +25,10 @@ For the machine learning model the following stages were followed:
 
 Machine Learning Model 1 (with original data):
 * Accuracy: 0.9924164259182832
-                  precision    recall  f1-score   support
+*               precision    recall  f1-score   support
 
            0       1.00      0.99      1.00     56277
-           1       0.85      0.89
+           1       0.85      0.89      0.87      1875
 
 
 
