@@ -33,12 +33,13 @@ Machine Learning Model 1 (with original data):
 
 
 Machine Learning Model 2 (with resampled data):
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* Accuracy: 0.9952022286421791
+*               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18759
+           1       0.87      1.00      0.93       625
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+* With oversampled data the logistic regression model performs better overall, although it's still much better at predicting healthy loans (0) than high-risk loans (1) – as the model built using the original data. The accuracy is higher and performs better on precision and recall. I'd recommend using this model.
+* Performance depends on whether it's more critical for us to find healthy loans (0) or high-risk loans (1) with higher accuracy.
